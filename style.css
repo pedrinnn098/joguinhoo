@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*{
+    background-image: url(./img/heart-1164739_640.jpg);
+    
+}
+
+#game{
+    width: 1000px;
+    height: 520px;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+#personagem{
+    width: 60px;
+    height: 70px;
+    background-image: url(./img/222Captura\ de\ tela\ 2023-04-20\ 130439.png);
+    background-position: center center;
+    position: relative;
+    top: 450px;
+ 
+}
+
+.animar{
+    animation: personagem 500ms infinite;
+
+}
+
+@keyframes personagem{
+    0%{top: 350px;}
+    50%{top: 300px;}
+    75%{top: 300px;}
+    100%{top: 350px;}
+}
+
+#quadrado{
+    width: 60px;
+    height: 60px;
+    background-image: url(./img/Cbbbbbbaptura\ de\ tela\ 2023-04-20\ 130906.png);
+    position: relative;
+    top: 390px;
+    left: 480px;
+    animation: quadrado 1s infinite linear;
+}
+
+@keyframes quadrado{
+    0%{left: 1000px;}
+    100%{left: -40px;}
+}
+
+
+
